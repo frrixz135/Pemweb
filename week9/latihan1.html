@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luas dan Keliling Lingkaran</title>
+    <script>
+        
+    </script>
+</head>
+<body>
+    <span id="phi"></span>
+    <br>
+    <span id="jari"></span>
+    <br>
+    <span id="luas"></span>
+    <br>
+    <span id="keliling"></span>
+
+    <script>
+        // BUAT VARIABEL
+        const phi = 3.14;
+        console.log("Nilai phi adalah " + phi);
+        let jari = 14;
+        console.log("Nilai jari-jari adalah " + jari);
+        let luas = phi * (jari * jari);
+        console.log("Nilai luas adalah " + luas);
+        let keliling = phi * (2 * jari)
+        console.log("Nilai Keliling adalah " + keliling);
+
+        // TANGKAP ELEMENT BEDASARKAN ID NYA LALU TAMPILKAN DI WEB BROWSER
+        document.getElementById("phi").innerHTML = "<br>PHI : " + phi;
+        document.getElementById("jari").innerHTML = "<br>JARI - JARI : " + jari;
+        document.getElementById("luas").innerHTML = "<br>LUAS : " + luas;
+        document.getElementById("keliling").innerHTML = "<br>KELILING : " + keliling;
+
+    </script>
+</body>
+</html>
